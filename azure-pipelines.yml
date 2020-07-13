@@ -3,6 +3,8 @@ trigger:
 
 pool:
   name: 'az400'
+  demands:
+    - npm
 
 variables:
   buildConfiguration: 'Release'
